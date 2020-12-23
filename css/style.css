@@ -1,4 +1,4 @@
-html,body.portfolio-display div a{
+html, body.portfolio-display div a{
 	background-color: #FFFFFF;
 	font-size: 11px;
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -14,12 +14,8 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     background:#fff;
     width:168px;
     height:100%;
-    padding:48px 0px 0 20px;
-    margin:0;
-    
-
+    padding:48px 20px 0px 20px;
 }
-
 
 .btn-link {
     text-decoration: none;
@@ -43,15 +39,16 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     outline: none!important;
 }
 
+.card-header{
+    border: none;
+    background-color: transparent;
+}
+
 .card-header :hover 
 .card-header :active
 .card-header :focus{
     border: none !important;
     outline: none !important;
-}
-.card-header{
-    border: none;
-    background-color: transparent;
 }
 
 .card-body ul {
@@ -72,6 +69,7 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     justify-content: left;
     margin-left: 0rem;
     padding-left: 0rem;
+    margin-top: 1rem;
 }
 
 .card {
@@ -124,7 +122,7 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 25rem;
     font-size: xx-small;
 }
 
