@@ -1,23 +1,20 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta content='width=device-width, initial-scale=1, maximum-scale=1' name='viewport'>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" />
-<link rel="stylesheet" href="css/touch.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <title>2019</title>
 </head>
 <!--Portfolio display-->
-<body class='portfolio-display'>
-
-<!--Left side/navbar-->
-<div class='left_side_vertical' id='wrapper'>
-<div class='left_side_vertical' id='nav'>
-
+ <body class="portfolio-display">
+<div class="left_side_vertical" id="wrapper">
+<div class="left_side_vertical" id="nav">
 <div class="accordion" id="project-links">
   <div class="card">
     <div class="card-header" id="2019">
@@ -68,9 +65,18 @@
  </div>
  <div class="card">
     <div class="card-header" id="about">
- <a href="about.html">About</a>
-      </div>
- </div>
+      <h6 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseabout" aria-expanded="true" aria-controls="collapseabout">
+About       
+</button>
+    </h6>
+    </div>
+    <div id="collapseabout" class="collapse" aria-labelledby="about" data-parent="#project-links">
+      <div class="card-body">
+          <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam deserunt, veniam dicta quae vitae distinctio repellendus atque officiis illo rerum. Rerum nobis tempore dolore cum odit officiis ullam! Maxime, autem?</p>
+</div>
+    </div>
+  </div>
 </div>
 </div>
 
@@ -79,31 +85,46 @@
 			<div class="col-5">
                 <img class="img-fluid" src="images/warthog-portrait.jpeg" alt="warthog-portrait">
 
-            <div class='media_info'>
-<p><b>Isabella Hay<br><em></b><b>Black face</em></b><br><b>2018</b><br>Drypoint on card<br>14.8 x 21 cm	(5.8 x 8.3 in.)<br></p>
+            <div class="media_info">
+<p><b>Isabella Hay<br><em></b><b>Warthog - portrait</em></b><br><b>2016</b><br>Oil on linen<br>29.7 x 42cm	(11.7 x 16.5 in.)<br></p>
 </div>    
             </div>
 			<div class="col-5">
                 <img class="img-fluid" src="images/warthog-movement.jpeg" alt="warthog-movement">
-            <div class='media_info'>
-<p><b>Isabella Hay<br><em></b><b>Black face</em></b><br><b>2018</b><br>Drypoint on card<br>14.8 x 21 cm	(5.8 x 8.3 in.)<br></p>
+            <div class="media_info">
+<p><b>Isabella Hay<br><em></b><b>Warthog - movement</em></b><br><b>2016</b><br>Drypoint, ink printed on paper<br>5 x 30cm (1.9 x 11.8 in.)<br></p>
+<p><b>Isabella Hay<br><em></b><b>Warthog - movement</em></b><br><b>2016</b><br>Pencil on paper<br>5 x 30cm	(1.9 x 11.8 in.)<br></p>
 </div>
             </div>
 			<div class="col-5">
                 <img class="img-fluid" src="images/warthog-pencil.jpeg" alt="warthog-pencil">
-            <div class='media_info'>
-<p><b>Isabella Hay<br><em></b><b>Black face</em></b><br><b>2018</b><br>Drypoint on card<br>14.8 x 21 cm	(5.8 x 8.3 in.)<br></p>
+            <div class="media_info">
+<p><b>Isabella Hay<br><em></b><b>Warthog study</em></b><br><b>2016</b><br>Pencil on paper<br>29.7 x 42cm (11.7 x 16.5 in.)<br></p>
 </div>
             </div>
 			<div class="col-5">
                 <img class="img-fluid" src="images/warthog-landscape.jpeg" alt="warthog-landscape" >
-            <div class='media_info'>
-<p><b>Isabella Hay<br><em></b><b>Black face</em></b><br><b>2018</b><br>Drypoint on card<br>14.8 x 21 cm	(5.8 x 8.3 in.)<br></p>
+            <div class="media_info">
+<p><b>Isabella Hay<br><em></b><b>Warthog - landscape</em></b><br><b>2016</b><br>Oil on linen<br>29.7 x 42cm	(11.7 x 16.5 in.)<br></p>
 </div>
             </div>
 </div>
 </div>
 </div>
-
+<!--Footer-->
+<footer> 
+    <div class="d-flex flex-row justify-content-center">
+        <a class="nav-link" target="_blank" href="https://www.facebook.com/isabella.hay.5/"><i class="fab fa-facebook-f"></i></a>
+        <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/isabella-hay-a7154477/"><i class="fab fa-linkedin-in"></i></a>
+        <a class="nav-link" target="_blank" href="https://www.instagram.com/isabellahay7/?hl=en"><i class="fab fa-instagram"></i></a>         
+    </div>         
+</div>  
+<!--Copyright-->
+<div class="row col-sm justify-content-center">
+            <div class="copyright">
+                <p>© 2020 Isabella Hay. All Rights Reserved.</p>
+            </div>
+        </div>
+</footer>
 </body>
 </html>
