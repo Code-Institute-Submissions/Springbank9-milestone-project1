@@ -109,6 +109,10 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     list-style-type: none;
 }
 
+.card-body ul li{
+    justify-content: center;
+}
+
 p .info {
     justify-content: left;
     margin-left: 0rem;
