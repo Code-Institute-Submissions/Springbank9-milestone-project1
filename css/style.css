@@ -1,24 +1,24 @@
-.crossfade > figure {
-  animation: imageAnimation 30s linear infinite 0s;
-  background-size: cover;
-  background-position: center left;
-  color: transparent;
-  height: 100%;
-  left: 0px;
-  opacity: 0;
-  position: absolute;
-  top: 0px;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  z-index: 0;
+.crossfade > figure{
+animation: imageAnimation 30s linear infinite 0s;
+background-size: cover;
+background-position: center left;
+color: transparent;
+height: 100%;
+left: 0px;
+opacity: 0;
+position: absolute;
+top: 0px;
+margin: 0;
+padding: 0;
+width: 100%;
+z-index: 0;
 }
 
-.crossfade > figure:nth-child(1) { background-image: url('/images/black-face-graze.jpeg'); }
-.crossfade > figure:nth-child(2) { animation-delay: 5s; background-image: url('/images/black-face-stare.jpeg'); }
-.crossfade > figure:nth-child(3) { animation-delay: 10s; background-image: url('/images/black-face-stare2.jpeg'); }
-.crossfade > figure:nth-child(4) { animation-delay: 15s; background-image: url('/images/black-face-startle.jpeg'); }
-.crossfade > figure:nth-child(5) { animation-delay: 20s; background-image: url('/images/black-face-run.jpeg'); }
+.crossfade > figure:nth-child(1) {background-image: url('/images/black-face-graze.jpeg'); }
+.crossfade > figure:nth-child(2) {animation-delay: 5s; background-image: url('/images/black-face-stare.jpeg'); }
+.crossfade > figure:nth-child(3) {animation-delay: 10s; background-image: url('/images/black-face-stare2.jpeg'); }
+.crossfade > figure:nth-child(4) {animation-delay: 15s; background-image: url('/images/black-face-startle.jpeg'); }
+.crossfade > figure:nth-child(5) {animation-delay: 20s; background-image: url('/images/black-face-run.jpeg'); }
 
 @keyframes 
 imageAnimation {  0% {
@@ -37,6 +37,10 @@ imageAnimation {  0% {
 }
  100% {
  opacity: 0;}}
+
+
+/*Code for crossfading background: https://www.cssscript.com/css-only-crossfading-background-slideshow/*/
+
 
 html, body.portfolio-display div a{
 	background-color: transparent;
@@ -57,11 +61,16 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     height:100%;
     padding:48px 20px 0px 20px;}
 
+.homepage a {
+    justify-content: center;
+    margin-left: 2rem;
+}
+
 .btn-link {
     text-decoration: none;
     border: none !important;
     outline: none!important; 
-    background-color: none;
+    background-color: transparent;
     color: black;
     font-weight: bold;
     justify-content: left;
@@ -109,9 +118,6 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     list-style-type: none;
 }
 
-.card-body ul li{
-    justify-content: center;
-}
 
 p .info {
     justify-content: left;
@@ -128,7 +134,7 @@ p .info {
 
 ::-webkit-scrollbar {
     width: 0px;
-    background: transparent; /* make scrollbar transparent */
+    background: transparent;
 }
 
 
@@ -141,7 +147,7 @@ p .info {
 
 
  .container-fluid {
-    margin:30px 10px 10px 160px;
+    margin:30px 10px 10px 150px;
     padding-bottom: 0px;
     display:inline;
     float:left;
@@ -157,11 +163,12 @@ p .info {
 }
 
 .copyright{
-    padding-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
-    justify-content: center;
-    font-size: xx-small;}
+    justify-content:center ;
+    font-size: xx-small;
+    position: absolute;
+    margin-top: 47rem;}
 
 .nav-link{
     color: black;
