@@ -91,6 +91,11 @@ Screenshots of the validated code are found in the documentation folder in the p
 ## Extra Testing
 Site has been test on Chrome, Safari and Firefox and works fine. 
 The site works on mobile although to experience full effect of homepage animation, users can view the page horizontally. Otherwise display of artworks on pages works fine. 
+
+## Known bugs
+
+The copyright text can be shown differetnlyon safari and on mobile to Chrome. 
+
 ## Deployment
 
 ### GitHub Pages
