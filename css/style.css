@@ -61,6 +61,11 @@ body.portfolio-display #wrapper.left_side_vertical #nav {
     height:100%;
     padding:48px 20px 0px 20px;}
 
+.homepage {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+
 .btn-link {
     text-decoration: none;
     border: none !important;
@@ -140,6 +145,9 @@ p .info {
   margin-left: 0;
 }
 
+.contact-links {
+    margin-top: 2rem;
+}
 
  .container-fluid {
     margin:30px 10px 10px 150px;
