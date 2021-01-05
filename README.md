@@ -95,7 +95,7 @@ The site works on mobile although to experience full effect of homepage animatio
 ## Known bugs
 
 The copyright text can be shown differetnlyon safari and on mobile to Chrome. 
-
+Crossfade animation works when viewing live site within GitHub but doesnt seem to appear otherwise. 
 ## Deployment
 
 ### GitHub Pages
